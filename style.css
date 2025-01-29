@@ -1,0 +1,77 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.instructions {
+    font-size: 1.2em;
+    color: #666;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculate-btn, .submit-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculate-btn:hover, .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.result.show {
+    opacity: 1;
+}
+
+.submitted-details {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.submitted-details h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#details-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#details-list li {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+}
