@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Details Collector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">FLAMES Details Collector</h1>
+        <p class="instructions">Enter two names to find out your relationship and submit the details!</p>
+        <input type="text" id="name1" placeholder="Enter Your Name" />
+        <input type="text" id="name2" placeholder="Enter Partner Name" />
+        <button class="calculate-btn" onclick="calculateFLAMES()">Calculate</button>
+        <div id="result" class="result"></div>
+        <button class="submit-btn" onclick="submitDetails()">Submit Details</button>
+    </div>
+
+    <!-- Display Submitted Details -->
+    <div class="submitted-details">
+        <h2>Submitted Details</h2>
+        <ul id="details-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
